@@ -1,0 +1,12 @@
+#!/bin/bash
+
+. $HOME/bin/scripts/jdk-switch.sh
+
+# Main
+JDK=$1
+
+case $JDK in
+  7) switch_jdk $JDK7;;
+  8) switch_jdk $JDK8;;
+  9) switch_jdk $JDK9;;
+esac
