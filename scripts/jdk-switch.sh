@@ -6,7 +6,7 @@ JDK_ROOT=/Library/Java/JavaVirtualMachines
 # JDK definitions
 JDK7=jdk1.7.0_71
 JDK8=jdk1.8.0_121
-JDK9=jdk-9
+JDK9=jdk-9.jdk
 
 DEFAULT_JDK="$JDK8"
 
@@ -37,3 +37,4 @@ switch_jdk() {
   export PS1=`echo $PS1 | sed "s; \[jdk.*\].*;;g"`
   PS1="$PS1$ps1_suffix"
 }
+
