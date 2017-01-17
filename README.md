@@ -5,8 +5,8 @@
 
 Setup JDK Switcher:
 
-    # 1) Checkout this repo
-    # 2) edit ~/.profile
+    # 1. Checkout this repo
+    # 2. edit ~/.profile
     
     export PATH=<path/to/scripts>:$PATH
     . jdk-switch.sh
