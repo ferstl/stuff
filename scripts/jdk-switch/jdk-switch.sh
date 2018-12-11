@@ -8,8 +8,9 @@ JDK7=jdk1.7.0_71
 JDK8=jdk1.8.0_172
 JDK9=jdk-9
 JDK10=jdk-10.0.1
+JDK11=jdk-11.0.1
 
-DEFAULT_JDK="$JDK10"
+DEFAULT_JDK="$JDK11"
 
 # Switch the JDK to the given verison
 # The switch will set JAVA_HOME and add it to the PATH
