@@ -8,7 +8,7 @@ JDK7=jdk1.7.0_71
 JDK8=jdk1.8.0_192
 JDK9=jdk-9
 JDK10=jdk-10.0.1
-JDK11=jdk-11.0.1
+JDK11=jdk-11.0.2
 
 DEFAULT_JDK="$JDK11"
 
