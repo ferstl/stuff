@@ -5,7 +5,7 @@ JDK_ROOT=/Library/Java/JavaVirtualMachines
 
 # JDK definitions
 JDK7=jdk1.7.0_71
-JDK8=jdk1.8.0_202
+JDK8=zulu-8
 JDK9=jdk-9
 JDK10=jdk-10.0.1
 JDK11=zulu-11
