@@ -36,7 +36,7 @@ switch_jdk() {
   fi
 
   # Set PS1. First clear possibly set JDK suffixes
-  export PS1=`echo $PS1 | sed "s; \[jdk.*\].*;;g"`
+  export PS1=`echo $PS1 | sed -E "s; (\[jdk.*\].*)|(\[zulu.*\].*);;g"`
   PS1="$PS1$ps1_suffix"
 }
 
