@@ -12,4 +12,5 @@ case $JDK in
   10) switch_jdk $JDK10;;
   11) switch_jdk $JDK11;;
   13) switch_jdk $JDK13;;
+  15) switch_jdk $JDK15;;
 esac
