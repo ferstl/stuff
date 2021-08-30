@@ -11,8 +11,9 @@ JDK10=jdk-10.0.1
 JDK11=zulu-11
 JDK13=zulu-13
 JDK15=zulu-15
+JDK16=zulu-16
 
-DEFAULT_JDK="$JDK15"
+DEFAULT_JDK="$JDK16"
 
 # Switch the JDK to the given verison
 # The switch will set JAVA_HOME and add it to the PATH
