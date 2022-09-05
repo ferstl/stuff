@@ -13,6 +13,7 @@ JDK13=zulu-13
 JDK15=zulu-15
 JDK16=zulu-16
 JDK17=zulu-17
+JDK18=zulu-18
 
 DEFAULT_JDK="$JDK17"
 
